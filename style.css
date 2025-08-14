@@ -27,19 +27,29 @@ h2 {
 }
 
  /* Bloc sous mon nom + P + Poste*/
+/* Ligne infos juste sous le poste */
 .infos-sous-titre {
-  text-align: center;       /* Centré sous le poste */
-  font-size: 0.9em;          /* Plus petit que le texte normal */
-  color: #555;               /* Gris doux */
-  margin-top: -20px;         /* Rapproche du titre */
-  margin-bottom: 40px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+  margin-top: -15px;
+  margin-bottom: 8px;
 }
 
 .infos-sous-titre .sep {
-  margin: 0 10px;            /* Espace autour du gros point */
-  color: #999;               /* Couleur du séparateur */
+  margin: 0 10px;
+  color: #999;
   font-weight: bold;
   font-size: 1.1em;
+}
+
+/* Mobilité seule, centrée, et un peu mise en avant */
+.mobilite {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 500;
+  color: #0073e6;
+  margin-bottom: 40px; /* espace avant la suite du CV */
 }
 
 
