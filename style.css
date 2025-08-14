@@ -26,6 +26,23 @@ h2 {
   margin-bottom: 40px;
 }
 
+ /* Bloc sous mon nom + P + Poste*/
+.infos-sous-titre {
+  text-align: center;       /* Centré sous le poste */
+  font-size: 0.9em;          /* Plus petit que le texte normal */
+  color: #555;               /* Gris doux */
+  margin-top: -20px;         /* Rapproche du titre */
+  margin-bottom: 40px;
+}
+
+.infos-sous-titre .sep {
+  margin: 0 10px;            /* Espace autour du gros point */
+  color: #999;               /* Couleur du séparateur */
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+
 /* Titres des sections centrés (optionnel) */
 h3 {
   color: #0073e6;
