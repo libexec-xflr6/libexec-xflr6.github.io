@@ -60,3 +60,23 @@ h3 {
   /* Enlève le commentaire ci-dessous si tu veux les centrer aussi */
   /* text-align: center; */
 }
+
+/* PARTIE LANGUES ######################*/
+
+.langues-parlees {
+  text-align: center; /* Centre toute la section */
+  margin-bottom: 30px;
+}
+
+.langues-parlees h3 {
+  color: #0073e6;
+  margin-bottom: 10px;
+}
+
+.langues-parlees p {
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+/* FIN PARTIE LANGUES ######################*/
+
