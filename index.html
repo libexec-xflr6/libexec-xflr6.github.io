@@ -2,58 +2,148 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>CV Sylvain Marchand</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Sylvain MARCHAND - CV</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #0073e6;
+      margin-bottom: 10px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .contact, .languages, .interests {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .certifications span {
+      background: #0073e6;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.9em;
+      margin-right: 10px;
+      display: inline-block;
+    }
+  </style>
 </head>
 <body>
-  <div class="language-switch">
-    <button onclick="switchLanguage()">Français / English</button>
-  </div>
+  <div class="container">
+    <h1>Sylvain MARCHAND</h1>
+    <h2>Administrateur systèmes et réseaux</h2>
 
-  <div id="cv-content">
-    <h1 data-fr="Sylvain Marchand" data-en="Sylvain Marchand">Sylvain Marchand</h1>
-    <h2 data-fr="Administrateur Systèmes & Réseaux" data-en="Systems & Network Administrator">Administrateur Systèmes & Réseaux</h2>
+    <div class="section">
+      <h3>Contact</h3>
+      <div class="contact">
+        <span>📍 La Rochelle</span>
+        <span>📞 07 82 94 85 72</span>
+        <span>📧 ns-smhd.work@pm.me</span>
+      </div>
+    </div>
 
-    <section>
-      <h3 data-fr="Compétences" data-en="Skills">Compétences</h3>
+    <div class="section">
+      <h3>À propos</h3>
+      <p>Né le 03/01/1990 · Permis B & véhicule</p>
+    </div>
+
+    <div class="section">
+      <h3>Langues parlées</h3>
+      <div class="languages">
+        <span>Français</span>
+        <span>Anglais (intermédiaire)</span>
+        <span>Allemand (notions)</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Centres d'intérêt</h3>
+      <div class="interests">
+        <span>Nouvelles technologies</span>
+        <span>Hardware</span>
+        <span>eSport</span>
+        <span>Voyages</span>
+        <span>Randonnées</span>
+        <span>Musique</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Compétences</h3>
       <ul>
-        <li data-fr="VMware" data-en="VMware">VMware</li>
-        <li data-fr="Fortinet" data-en="Fortinet">Fortinet</li>
-        <li data-fr="Cisco" data-en="Cisco">Cisco</li>
+        <li>Switching & Routing</li>
+        <li>Administration Windows/Linux</li>
+        <li>Troubleshooting</li>
+        <li>Assistance utilisateurs</li>
+        <li>vSphere / HyperV</li>
+        <li>Firewall (Fortinet / Stormshield)</li>
+        <li>Veeam</li>
+        <li>Supervision (Centreon)</li>
+        <li>Conseil à la clientèle</li>
+        <li>Force de proposition</li>
+        <li>Négociation / Vente</li>
+        <li>Relation client</li>
+        <li>Travail en équipe</li>
+        <li>Gestion de tickets</li>
+        <li>Rédaction procédures</li>
+        <li>Atteinte d'objectifs commerciaux</li>
       </ul>
-    </section>
+    </div>
 
-    <section>
-      <h3 data-fr="Expériences" data-en="Experience">Expériences</h3>
-      <p data-fr="Entreprise1 (2024–2025)" data-en="Company1 (2024–2025)">Entreprise1 (2024–2025)</p>
-    </section>
+    <div class="section">
+      <h3>Expériences</h3>
+      <ul>
+        <li>2022–2024 : Administrateur système et réseau – KCT Experis, Nantes</li>
+        <li>2021 : Administrateur système et réseau – Alteca, Lyon</li>
+        <li>2021 : Stage fin d’étude – Soft Systems, Toulouse</li>
+        <li>2020 : Technicien déploiement – Sanofi, Mayotte</li>
+        <li>2018–2019 : Technicien scolaire – Vice-Rectorat, Nantes</li>
+        <li>2018 : Stage Helpdesk – Soft Systems, Toulouse</li>
+        <li>2017 : Stage Helpdesk – Sitel, La Rochelle</li>
+        <li>2016 : Téléconseiller SFR N2 – Sitel, La Rochelle</li>
+        <li>2014 : Téléconseiller SFR N1 – Bouchard P., Poitiers</li>
+        <li>2012–2013 : Commercial (alternance) – Intermarché, La Rochelle</li>
+        <li>2011–2012 : Téléconseiller – Gaz de France</li>
+        <li>2009–2011 : Employé commercial (alternance)</li>
+      </ul>
+    </div>
 
-    <section>
-      <h3 data-fr="Formations" data-en="Education">Formations</h3>
-      <p data-fr="Bac +3 Administrateur Systèmes et Réseaux" 
-         data-en="Bachelor's Degree in Systems and Network Administration">
-         Bac +3 Administrateur Systèmes et Réseaux
-      </p>
-    </section>
+    <div class="section">
+      <h3>Formations</h3>
+      <ul>
+        <li>2020–2021 : Admin. Infrastructures Sécurisées (bac+4) – M2I Lyon</li>
+        <li>2018 : Tech. Supérieur Support Informatique (bac+2) – Adrar Toulouse</li>
+        <li>2017 : Tech. Assistant Informatique (bac) – Paris</li>
+        <li>2016 : Piscine 42 – MDF Poitiers</li>
+        <li>2012 : BTS 1 NRC – Candidat libre</li>
+        <li>2009 : Bac commerce</li>
+      </ul>
+    </div>
 
-<section>
-  <h3 data-fr="Certifications" data-en="Certifications">Certifications</h3>
-  <div class="certifications">
-    <span class="badge" data-fr="Fortinet NSE4" data-en="Fortinet NSE4">Fortinet NSE4</span>
-    <span class="badge" data-fr="VMware VCP - DCV 2022" data-en="VMware VCP - DCV 2022">VMware VCP - DCV 2022</span>
-    <span class="badge" data-fr="TOEIC niveau B2" data-en="TOEIC level B2">TOEIC niveau B2</span>
+    <div class="section">
+      <h3>Certifications</h3>
+      <div class="certifications">
+        <span>Fortinet NSE4</span>
+        <span>VMware VCP - DCV 2022</span>
+        <span>TOEIC B2</span>
+      </div>
+    </div>
   </div>
-</section>
-
-
-
-    <section>
-      <h3 data-fr="Contact" data-en="Contact">Contact</h3>
-      <p>Email : <a href="mailto:0@0.fr">0@0.fr</a></p>
-      <p>Téléphone : <a href="tel:+33707070709">0707070709</a></p>
-    </section>
-  </div>
-
-  <script src="script.js"></script>
 </body>
 </html>
