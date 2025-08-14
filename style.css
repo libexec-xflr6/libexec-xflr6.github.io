@@ -93,13 +93,14 @@ h3 {
 }
 
 .competences-grid {
-  display: inline-flex; /* Centrage horizontal */
-  gap: 50px; /* Espace entre les colonnes */
-  text-align: left; /* Texte à gauche pour plus de lisibilité */
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 colonnes égales */
+  gap: 50px; /* espace entre les colonnes */
+  justify-items: center; /* centre chaque colonne */
 }
 
 .competences-grid ul {
-  list-style-type: "✔ "; /* Petit check devant chaque compétence */
+  list-style-type: "✔ ";
   padding-left: 0;
   margin: 0;
 }
@@ -108,5 +109,6 @@ h3 {
   margin-bottom: 8px;
   font-size: 1em;
 }
+
 /* FIN COMPETENCES ############################*/
 
