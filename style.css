@@ -1,25 +1,35 @@
-/* Applique une police moderne et agréable */
+/* Police et style général */
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
   margin: 0;
   padding: 0;
-  text-align: center; /* Centre tout le texte par défaut */
   background: #f4f4f4;
   color: #333;
+  line-height: 1.5;
 }
 
-/* Nom */
+/* Nom centré */
 h1 {
-  font-size: 2.8em;       /* Agrandit le nom */
-  font-weight: bold;      /* En gras */
-  margin-top: 50px;       /* Espace au-dessus */
-  margin-bottom: 10px;    /* Espace sous le nom */
+  text-align: center;
+  font-size: 2.8em;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
-/* Poste */
+/* Poste centré */
 h2 {
+  text-align: center;
   font-size: 1.6em;
   font-weight: normal;
-  color: #0073e6;         /* Bleu pour donner du style */
-  margin-bottom: 40px;    /* Espace après le titre */
+  color: #0073e6;
+  margin-bottom: 40px;
+}
+
+/* Titres des sections centrés (optionnel) */
+h3 {
+  color: #0073e6;
+  margin-bottom: 10px;
+  /* Enlève le commentaire ci-dessous si tu veux les centrer aussi */
+  /* text-align: center; */
 }
