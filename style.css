@@ -1,114 +1,28 @@
-/* Police et style général */
 body {
-  font-family: 'Segoe UI', Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f4f4f4;
-  color: #333;
-  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
 }
 
-/* Nom centré */
+header, section {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #0073e6;
+  margin-bottom: 10px;
+}
+
 h1 {
   text-align: center;
-  font-size: 2.8em;
-  font-weight: bold;
-  margin-top: 50px;
-  margin-bottom: 10px;
 }
 
-/* Poste centré */
-h2 {
-  text-align: center;
-  font-size: 1.6em;
-  font-weight: normal;
-  color: #0073e6;
-  margin-bottom: 40px;
+ul {
+  padding-left: 20px;
 }
 
- /* Bloc sous mon nom + P + Poste*/
-/* Ligne infos juste sous le poste */
-.infos-sous-titre {
-  text-align: center;
-  font-size: 0.9em;
-  color: #555;
-  margin-top: -15px;
-  margin-bottom: 8px;
-}
-
-.infos-sous-titre .sep {
-  margin: 0 10px;
-  color: #999;
-  font-weight: bold;
-  font-size: 1.1em;
-}
-
-/* Mobilité seule, centrée, et un peu mise en avant */
-.mobilite {
-  text-align: center;
-  font-size: 1em;
-  font-weight: 500;
-  color: #0073e6;
-  margin-bottom: 40px; /* espace avant la suite du CV */
-}
-
-
-/* Titres des sections centrés (optionnel) */
-h3 {
-  color: #0073e6;
-  margin-bottom: 10px;
-  /* Enlève le commentaire ci-dessous si tu veux les centrer aussi */
-  /* text-align: center; */
-}
-
-/* PARTIE LANGUES ######################*/
-
-.langues-parlees {
-  text-align: center; /* Centre toute la section */
-  margin-bottom: 30px;
-}
-
-.langues-parlees h3 {
-  color: #0073e6;
-  margin-bottom: 10px;
-}
-
-.langues-parlees p {
-  margin: 5px 0;
+p, li {
   font-size: 1em;
 }
-
-/* FIN PARTIE LANGUES ######################*/
-
-/* Debut competences #####################*/
-
-.competences {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.competences h3 {
-  color: #0073e6;
-  margin-bottom: 15px;
-}
-
-.competences-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* 2 colonnes égales */
-  gap: 50px; /* espace entre les colonnes */
-  justify-items: center; /* centre chaque colonne */
-}
-
-.competences-grid ul {
-  list-style-type: "✔ ";
-  padding-left: 0;
-  margin: 0;
-}
-
-.competences-grid li {
-  margin-bottom: 8px;
-  font-size: 1em;
-}
-
-/* FIN COMPETENCES ############################*/
-
