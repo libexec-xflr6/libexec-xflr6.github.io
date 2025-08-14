@@ -80,3 +80,33 @@ h3 {
 
 /* FIN PARTIE LANGUES ######################*/
 
+/* Debut competences #####################*/
+
+.competences {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.competences h3 {
+  color: #0073e6;
+  margin-bottom: 15px;
+}
+
+.competences-grid {
+  display: inline-flex; /* Centrage horizontal */
+  gap: 50px; /* Espace entre les colonnes */
+  text-align: left; /* Texte à gauche pour plus de lisibilité */
+}
+
+.competences-grid ul {
+  list-style-type: "✔ "; /* Petit check devant chaque compétence */
+  padding-left: 0;
+  margin: 0;
+}
+
+.competences-grid li {
+  margin-bottom: 8px;
+  font-size: 1em;
+}
+/* FIN COMPETENCES ############################*/
+
